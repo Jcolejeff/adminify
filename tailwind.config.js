@@ -4,13 +4,15 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
-      xxs: '350px',
+      xxs: '340px',
       xs: '475px',
       sm: '640px',
       md: '768px',
       xm: '900px',
       lg: '1024px',
       xl: '1280px',
+      xxl: '1440px',
+      '2xl': '1536px',
     },
     fontFamily: {
       sans: ['Public Sans', 'sans-serif'],
