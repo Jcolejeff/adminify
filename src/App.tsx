@@ -1,6 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import RouteGuard from 'guards/RouteGuard';
-import PaymentOptions from 'components/PaymentOptions';
 import img from 'assets/not-found.png';
 import LoginPage from 'pages/auth/login';
 import ProfilePage from 'pages/dashboard/profile';

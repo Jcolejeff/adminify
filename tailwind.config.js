@@ -16,6 +16,7 @@ module.exports = {
       sans: ['Public Sans', 'sans-serif'],
       inter: ['Inter', 'sans-serif'],
       mukta: ['Mukta', 'sans-serif'],
+      manrope: ['Manrope', 'sans-serif'],
     },
     container: {
       center: true,
@@ -38,9 +39,9 @@ module.exports = {
         white: '#ffffff',
         primary: {
           light: 'rgba(102, 108, 255, 0.12)',
-          1: '#0a57ca',
-          2: '#8082FF',
-          3: '#6062E8',
+          1: '#1CC578',
+          2: '#FEF0F2',
+          3: '#F7F7F7',
           4: '#5456CC',
           6: 'rgba(102, 108, 255, 0.05)',
           7: 'rgba(102, 108, 255, 0.5)',

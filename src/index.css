@@ -67,6 +67,7 @@
     --ring: 217.2 32.6% 17.5%;
   }
 }
+
 /* For Firefox */
 input[type='tel']::-webkit-inner-spin-button,
 input[type='tel']::-webkit-outer-spin-button {

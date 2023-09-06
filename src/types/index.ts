@@ -7,6 +7,7 @@ export interface IAuthUser {
 }
 export interface IUserContextType {
   user?: IAuthUser | null;
+  handleSetUser: (user: IAuthUser | null) => void;
 }
 
 export interface IUserProviderProps {

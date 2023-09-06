@@ -1,12 +1,9 @@
 import { useLocation, Navigate, useNavigate } from 'react-router-dom';
-import { useUserContext } from 'context';
-import { set } from 'date-fns';
 import { useEffect } from 'react';
+import { useUserContext } from 'helper/hooks/useUserContext';
 
 const RouteGuard = ({ children }: any) => {
-  const { setUserTransactionRef, handleSetPaymentMethods, handleSetRedirectFromCardHandler } =
-    useUserContext();
-  const user = true;
+  const { user } = useUserContext();
 
   const navigate = useNavigate();
   const location = useLocation();
