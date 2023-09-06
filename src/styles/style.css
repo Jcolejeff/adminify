@@ -1,0 +1,41 @@
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+pre {
+  font-family: unset !important;
+}
+
+img {
+  max-width: unset !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  *::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 4px;
+  }
+  *::-webkit-scrollbar-track {
+    width: 4px;
+    height: 4px;
+  }
+  .no-scrollbar {
+    scrollbar-width: 0 !important;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none !important;
+  }
+  .no-scrollbar div {
+    scrollbar-width: 0 !important;
+  }
+  .no-scrollbar div::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+.lazy-load-image-background {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
