@@ -1,7 +1,9 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
+const baseURL = import.meta.env.VITE_API_URL;
+
 const client = new ApolloClient({
-  uri: 'https://spacex-production.up.railway.app/',
+  uri: baseURL,
   cache: new InMemoryCache(),
 });
 
