@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo-full.png" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,8 +18,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adminify</title>
   </head>
-  <body>
-    <div id="root" class="w-screen h-screen scroll-smooth font-manrope"></div>
+
+  <body class="overflow-hidden w-screen h-[100vh]">
+    <div
+      id="root"
+      class="font-manrope w-full h-full overflow-x-hidden relative scroll-smooth"
+    ></div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function () {
